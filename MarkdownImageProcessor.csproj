@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    
+    <!-- 应用程序信息 -->
+    <AssemblyTitle>Markdown图片处理器</AssemblyTitle>
+    <AssemblyDescription>一个用于处理Markdown文件中图片的桌面应用程序，可以下载网络图片并整理到本地assets文件夹。这是一个开源的、安全的文档处理工具。</AssemblyDescription>
+    <AssemblyConfiguration>Release</AssemblyConfiguration>
+    <AssemblyCompany>开源软件</AssemblyCompany>
+    <AssemblyProduct>Markdown图片处理器</AssemblyProduct>
+    <AssemblyCopyright>Copyright © 2025 开源软件. 本软件基于MIT许可证发布。</AssemblyCopyright>
+    <AssemblyTrademark>Markdown图片处理器</AssemblyTrademark>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Version>0.1.0</Version>
+    <Company>开源软件</Company>
+    <Product>Markdown图片处理器</Product>
+    <Copyright>Copyright © 2025 开源软件</Copyright>
+    
+    <!-- 应用程序图标 -->
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    
+    <!-- 安全和信任相关属性 -->
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Deterministic>true</Deterministic>
+    
+    <!-- 发布配置 -->
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+
+  <!-- 包含图标文件 -->
+  <ItemGroup>
+    <Content Include="app.ico" />
+  </ItemGroup>
+
+</Project> 
