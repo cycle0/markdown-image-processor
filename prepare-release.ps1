@@ -47,7 +47,7 @@ Write-Host "创建用户指南..." -ForegroundColor Yellow
 $userGuide = @"
 # Markdown图片处理器 v0.1.0 使用指南
 
-## 🚀 快速开始
+## 快速开始
 
 1. **系统要求**
    - Windows 7/8/10/11
@@ -62,23 +62,23 @@ $userGuide = @"
    - Windows SmartScreen: 点击"更多信息" → "仍要运行"
    - 杀毒软件拦截: 选择"信任"或"允许运行"
 
-## 🛡️ 安全声明
+## 安全声明
 
 本软件是100%安全的开源应用程序：
-- ✅ 无病毒、无恶意代码
-- ✅ 不收集任何个人信息
-- ✅ 仅在本地处理文件
-- ✅ 开源代码可审查
+- 无病毒、无恶意代码
+- 不收集任何个人信息
+- 仅在本地处理文件
+- 开源代码可审查
 
-## 📋 功能特性
+## 功能特性
 
-- 📁 处理Markdown文件中的图片引用
-- 🌐 下载网络图片到本地assets文件夹
-- 🔄 自动更新图片路径引用
-- 📊 实时进度显示
-- 📝 详细日志记录
+- 处理Markdown文件中的图片引用
+- 下载网络图片到本地assets文件夹
+- 自动更新图片路径引用
+- 实时进度显示
+- 详细日志记录
 
-## 🔧 故障排除
+## 故障排除
 
 如果程序被杀毒软件误报：
 1. 将程序添加到杀毒软件白名单
@@ -114,7 +114,7 @@ foreach ($file in $files) {
 }
 
 Write-Host ""
-Write-Host "📦 GitHub Release 准备步骤:" -ForegroundColor Yellow
+Write-Host "GitHub Release 准备步骤:" -ForegroundColor Yellow
 Write-Host "1. 压缩 $outputDir 目录为 markdown-image-processor-$version.zip" -ForegroundColor Gray
 Write-Host "2. 在GitHub创建新的Release" -ForegroundColor Gray
 Write-Host "3. 上传压缩包作为发行版附件" -ForegroundColor Gray

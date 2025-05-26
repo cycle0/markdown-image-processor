@@ -39,21 +39,12 @@
 
 ## 🔧 构建说明
 
-### 普通构建
-```powershell
-powershell -ExecutionPolicy Bypass -File "build-final.ps1"
-```
+### 使用构建脚本
 
-### 安全优化构建（推荐）
 ```powershell
-powershell -ExecutionPolicy Bypass -File "build-secure.ps1"
+# 运行安全优化构建脚本
+powershell -ExecutionPolicy Bypass -File "build-secure-simple.ps1"
 ```
-
-安全优化构建包含：
-- 完整的程序元数据
-- 应用程序清单文件
-- 移除调试符号
-- 优化的发布设置
 
 ## 📄 许可证
 
